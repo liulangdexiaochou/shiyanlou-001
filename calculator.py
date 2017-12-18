@@ -46,6 +46,6 @@ a1 = nashuie(a)
 for key,value in a1.items():
     a1[key] = nashui(value)
 #    print(a1)
-print(a1)
+#print(a1)
 for key2,value2 in a1.items():
     print('%s%s%s' % (key2,':',"%.2f"%value2))
